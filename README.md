@@ -184,3 +184,5 @@ Docker namespaces are a Linux kernel feature that Docker uses to isolate contain
 They give each container its own private view of the system — like having your own little world inside the same machine (like Filesystem, Network, Hostname...)
 ---
 ### 2.7 Docker Workflow
+
+![Docker Workflow](https://github.com/yassin-elkhamlichi/Docker/blob/main/Docker%20Workflow.png)
