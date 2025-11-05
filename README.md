@@ -3,13 +3,13 @@
 ## 📋 Table of Contents
 - [1️⃣ Definition](#1️⃣-definition)
 - [2️⃣ Docker Architecture](#2️⃣-docker-architecture)
-  - [🧱 2.1 Docker Image](#-21-docker-image)
-  - [📦 2.2 Docker Container](#-22-docker-container)
-  - [🗄️ 2.3 Docker Registry](#-23-docker-registry)
-  - [💻 2.4 Docker Client](#-24-docker-client)
-  - [⚙️ 2.5 Docker Daemon](#-25-docker-daemon)
-  - [🌐 2.6 Docker Namespace](#-26-docker-namespace)
-  - [🛠️ 2.7 Docker Workflow](#-27-Docker-Workflow)
+  - [🧱 2.1 Docker Image](#21-docker-image)
+  - [📦 2.2 Docker Container](#22-docker-container)
+  - [🗄️ 2.3 Docker Registry](#23-docker-registry)
+  - [💻 2.4 Docker Client](#24-docker-client)
+  - [⚙️ 2.5 Docker Daemon](#25-docker-daemon)
+  - [🌐 2.6 Docker Namespace](#26-docker-namespace)
+  - [🛠️ 2.7 Docker Workflow](#27-docker-workflow)
 
 ---
 
