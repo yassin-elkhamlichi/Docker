@@ -9,6 +9,7 @@
   - [💻 2.4 Docker Client](#-24-docker-client)
   - [⚙️ 2.5 Docker Daemon](#-25-docker-daemon)
   - [🌐 2.6 Docker Namespace](#-26-docker-namespace)
+  - [🛠️ 2.7 Docker Workflow](#-27-Docker-Workflow)
 
 ---
 
@@ -183,6 +184,6 @@ Docker namespaces are a Linux kernel feature that Docker uses to isolate contain
 
 They give each container its own private view of the system — like having your own little world inside the same machine (like Filesystem, Network, Hostname...)
 ---
-### 2.7 Docker Workflow
+### 🛠️ 2.7 Docker Workflow
 
 ![Docker Workflow](https://github.com/yassin-elkhamlichi/Docker/blob/main/Docker%20Workflow.png)
