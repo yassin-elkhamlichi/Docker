@@ -1,8 +1,8 @@
 # 🐳 Docker
 
 ## 📋 Table of Contents
-- [1️⃣ Definition](#1️⃣-definition)
-- [2️⃣ Docker Architecture](#2️⃣-docker-architecture)
+- [1️⃣ Definition](#-1-definition)
+- [2️⃣ Docker Architecture](#-2-docker-architecture)
   - [🧱 2.1 Docker Image](#-21-docker-image)
   - [📦 2.2 Docker Container](#-22-docker-container)
   - [🗄️ 2.3 Docker Registry](#-23-docker-registry)
@@ -10,6 +10,7 @@
   - [⚙️ 2.5 Docker Daemon](#-25-docker-daemon)
   - [🌐 2.6 Docker Namespace](#-26-docker-namespace)
   - [🛠️ 2.7 Docker Workflow](#-27-docker-workflow)
+
 
 ---
 
@@ -183,6 +184,7 @@ Docker Engine is made up of:
 Docker namespaces are a Linux kernel feature that Docker uses to isolate containers from each other and from the host system.
 
 They give each container its own private view of the system — like having your own little world inside the same machine (like Filesystem, Network, Hostname...)
+
 ---
 ### 🛠️ 2.7 Docker Workflow
 
