@@ -191,4 +191,61 @@ They give each container its own private view of the system — like having your
 ![Docker Workflow](https://github.com/yassin-elkhamlichi/Docker/blob/main/Docker%20Workflow.png)
 
 ---
+## 3 Docker Core : 
+### 3.1 Poplar commands :
+**1. `docker run`**
+This command **creates and starts a new container** from a specified image.
+
+| Syntax Example | `docker run -d -p 8080:80 --name web-nginx nginx` |
+| :--- | :--- |
+| **Parameter** | **Quick Explanation** |
+| **`-d`** (Detached) | Runs the container in the **background** and prints the Container ID. |
+| **`-p`** (Publish) | **Maps a port**. Syntax: `<HostPort>:<ContainerPort>`. |
+| **`--name`** | Assigns a **custom name** to the container (e.g., `web-nginx`). |
+| **`-it`** (Interactive TTY) | Used to run an interactive foreground process, often for testing or shell access. |
+
+---
+
+**2. `docker exec`**
+This command **runs a new command inside a running container**. It does not start the container itself.
+
+| Syntax Example | `docker exec -it web-nginx /bin/bash` |
+| :--- | :--- |
+| **Parameter** | **Quick Explanation** |
+| **`-i`** (Interactive) | Keeps STDIN (standard input) open, allowing you to type into the terminal. |
+| **`-t`** (TTY) | Allocates a pseudo-Terminal, making the session look like a proper terminal interface. |
+
+---
+
+**3. `docker stop`**
+This command sends a **graceful shutdown signal (SIGTERM)** to a running container, giving the process a few seconds to exit cleanly.
+
+| Syntax Example | `docker stop web-nginx` |
+| :--- | :--- |
+| **Parameter** | **Quick Explanation** |
+| **`-t`** (Timeout) | Specifies the number of seconds to wait before forcing a kill (default is 10 seconds). |
+
+---
+
+**4. `docker restart`**
+This command first sends a **stop signal**, and once the container has stopped, it **starts it again** using the original configuration.
+
+| Syntax Example | `docker restart web-nginx` |
+| :--- | :--- |
+| **Parameter** | **Quick Explanation** |
+| **None commonly used.** | It simply reboots the existing container instance. |
+
+---
+
+ **5. `docker ps`**
+This command is used to **list Docker containers**.
+
+| Syntax Example | `docker ps -a` |
+| :--- | :--- |
+| **Parameter** | **Quick Explanation** |
+| **No flags** | Lists **only** containers that are currently **Running** (`Up`). |
+| **`-a`** (All) | Lists **all** containers (Running, Stopped/Exited, Paused). |
+| **`-q`** (Quiet) | Lists **only the Container IDs** (useful for scripting or bulk operations). |
+
+---
 © created By Yassine
